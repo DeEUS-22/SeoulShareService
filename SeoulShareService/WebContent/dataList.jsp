@@ -16,12 +16,12 @@
 			<table class="table table-bordered table-striped text-center" id="member_table">
 				<thead>
 					<tr>
-						<th>#</th>
-						<th>rackTotCnt</th>
-						<th>stationName</th>
-						<th>parkingBikeTotCnt</th>
-						<th>shared</th>
-						<th>stationId</th>
+						<th>NO</th>
+						<th>거치대개수</th>
+						<th>대여소이름</th>
+						<th>자전거주차수</th>
+						<th>거치율(%)</th>
+						<th>대여소ID</th>
 					</tr>
 				</thead>
 				<tbody>
