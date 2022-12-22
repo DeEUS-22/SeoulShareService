@@ -7,25 +7,33 @@
 <title>Insert title here</title>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="http://localhost:9000/SeoulShareService/js/data.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 </head>
 <body>
 <div class="container">
-	<h4 style="text-align: center; padding: 50px 0">JSON Data List</h4>
-	<table class="table table-striped" id="member_table">
-		<thead>
-			<tr>
-				<th>No</th>
-				<th>대여소 ID</th>
-				<th>주소1</th>
-				<th>주소2</th>
-				<th>위도</th>
-				<th>경도</th>
-			</tr>
-		</thead>
-		<tbody>
-		</tbody>
-	</table>
-</div>
+		<h2>Responsive Table with Bootstrap4</h2>
+		<div class="table-responsive-xl">
+			<table class="table table-bordered text-center">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Table_test</th>
+						<th>Table_test</th>
+						<th>Table_test</th>
+						<th>Table_test</th>
+						<th>Table_test</th>
+						<th>Table_test</th>
+						<th>Table_test</th>
+						<th>Table_test</th>
+						<th>Table_test</th>
+						<th>Table_test</th>
+					</tr>
+				</thead>
+				<tbody>
+				</tbody>
+			</table>
+		</div>
+		
+	</div>
 </body>
 </html>
