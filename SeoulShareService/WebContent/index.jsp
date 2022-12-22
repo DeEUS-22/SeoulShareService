@@ -12,6 +12,7 @@
 <body>
 <div class="all">
 	<h2>서울시 공공자전거 실시간 대여정보(Open API) 시각화 프로젝트</h2>
+	
 	<!-- 지도 -->
 	<div class="map_wrap">
 	    <div class="map" id="map"></div> 
