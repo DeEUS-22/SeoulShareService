@@ -4,7 +4,7 @@ $(document).ready(function() {
 	$.ajax( {
 		
 		// ajax 옵션 설정
-		url : "http://openapi.seoul.go.kr:8088/6b4f6975416d6f623735664456464f/json/bikeStationMaster/1/5/",
+		url : "http://openapi.seoul.go.kr:8088/6b4f6975416d6f623735664456464f/json/bikeList/1/1000/",
 		type : "GET", 
 		dataType : "json", 
 		
@@ -13,15 +13,15 @@ $(document).ready(function() {
 		
 			// 할 일 처리
 			let api_data = "";
-			$.each( data.bikeStationMaster.row, function( key, value ) {
+			$.each( data.rentBikeStatus.row, function( key, value ) {
 				
 					api_data += "<tr>";
 					api_data += "<td>"+ key +"</td>";
-					api_data += "<td>"+ value.LENDPLACE_ID +"</td>";
-					api_data += "<td>"+ value.STATN_ADDR1 +"</td>";
-					api_data += "<td>"+ value.STATN_ADDR2 +"</td>";
-					api_data += "<td>"+ value.STATN_LAT +"</td>";
-					api_data += "<td>"+ value.STATN_LNT +"</td>";
+					api_data += "<td>"+ value.rackTotCnt +"</td>";
+					api_data += "<td>"+ value.stationName +"</td>";
+					api_data += "<td>"+ value.parkingBikeTotCnt +"</td>";
+					api_data += "<td>"+ value.shared +"</td>";
+					api_data += "<td>"+ value.stationId +"</td>";
 					api_data += "</tr>";
 												
 			} );

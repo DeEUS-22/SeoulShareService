@@ -11,22 +11,17 @@
 </head>
 <body>
 <div class="container">
-		<h2>Responsive Table with Bootstrap4</h2>
+		<h4 style="text-align: center; padding: 50px 0">서울시 공공자전거 실시간 대여정보</h4>
 		<div class="table-responsive-xl">
-			<table class="table table-bordered text-center">
+			<table class="table table-bordered table-striped text-center" id="member_table">
 				<thead>
 					<tr>
 						<th>#</th>
-						<th>Table_test</th>
-						<th>Table_test</th>
-						<th>Table_test</th>
-						<th>Table_test</th>
-						<th>Table_test</th>
-						<th>Table_test</th>
-						<th>Table_test</th>
-						<th>Table_test</th>
-						<th>Table_test</th>
-						<th>Table_test</th>
+						<th>rackTotCnt</th>
+						<th>stationName</th>
+						<th>parkingBikeTotCnt</th>
+						<th>shared</th>
+						<th>stationId</th>
 					</tr>
 				</thead>
 				<tbody>
