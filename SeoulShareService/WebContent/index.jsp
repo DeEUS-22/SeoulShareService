@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>마커 클러스터러에 클릭이벤트 추가하기</title>
+<title>서울시 공공자전거 실시간 대여정보(Open API) 시각화 프로젝트</title>
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=69d02d054bc554d77e8ab840092a3b61&libraries=services,clusterer,drawing"></script>
 <script src="http://localhost:9000/SeoulShareService/js/map.js"></script>
@@ -25,7 +25,7 @@
 	</div>
 	
 	<!-- 표 -->
-	<a href="data.do?command=list"><button type="button" class="btn btn_outline">세부 사항</button></a>
+	<a href="data.do?command=list"><button type="button" class="btn btn_outline">표로 보기</button></a>
 </div>
 </body>
 </html>
